@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet" />
+    <title>Basketball Score</title>
+  </head>
+  <body>
+    <section class="scoreboard">
+      <div class="score-block">
+        <h1>Team</h1>
+        <div class="score-bg"><span id="t1Score"></span></div>
+        <div class="buttons">
+          <button onclick="t1p1()">+1</button><button onclick="t1p2()">+2</button
+          ><button onclick="t1p3()">+3</button>
+        </div>
+      </div>
+      <div class="score-block">
+        <h1>Team</h1>
+        <div class="score-bg"><span id="t2Score"></span></div>
+        <div class="buttons">
+          <button onclick="t2p1()">+1</button><button onclick="t2p2()">+2</button
+          ><button onclick="t2p3()">+3</button>
+        </div>
+      </div>
+    </section>
+    <button id="reset" onclick="reset()">Reset</button>
+    <script src="index.js"></script>
+  </body>
+</html>
